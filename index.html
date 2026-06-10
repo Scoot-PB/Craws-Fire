@@ -24,12 +24,17 @@
   *{box-sizing:border-box;margin:0;padding:0}
   html,body{height:100%}
   body{
-    background:var(--void);
-    color:var(--line);
-    font-family:'Rajdhani',system-ui,sans-serif;
-    overflow:hidden;
-    display:flex;flex-direction:column;
-  }
+  background:var(--void);
+  color:var(--line);
+  font-family:'Rajdhani',system-ui,sans-serif;
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+
+  justify-content:center;   /* vertical centering */
+  align-items:center;       /* horizontal centering */
+}
+
   button{font-family:inherit;color:inherit;background:none;border:none;cursor:pointer}
   button:focus-visible, [tabindex]:focus-visible, input:focus-visible{
     outline:2px solid var(--amber);outline-offset:2px;
