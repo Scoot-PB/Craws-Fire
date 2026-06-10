@@ -98,22 +98,10 @@
   height: 1520px;
   transform-origin: 0 0;
 
-  background:
-    /* Magenta nebula */
-    radial-gradient(circle at 20% 30%, rgba(255, 80, 180, 0.18), transparent 60%),
-
-    /* Cyan-blue cluster */
-    radial-gradient(circle at 75% 40%, rgba(80, 180, 255, 0.16), transparent 65%),
-
-    /* Golden dust cloud */
-    radial-gradient(circle at 60% 75%, rgba(255, 200, 80, 0.12), transparent 70%),
-
-    /* Deep violet core glow */
-    radial-gradient(circle at 35% 60%, rgba(140, 80, 255, 0.10), transparent 70%),
-
-    /* Base void colour */
-    var(--void);
+  /* Replace with your galaxy image */
+  background: url("https://copilot.microsoft.com/th/id/BCO.d004b291-93bf-4bf5-a04a-1a9e46fe98c6.png") center/cover no-repeat, var(--void);
 }
+
 
   #stars,#lines{position:absolute;inset:0;width:100%;height:100%}
   #lines path{stroke:var(--line);stroke-width:1.4;stroke-dasharray:7 7;fill:none;opacity:.65}
